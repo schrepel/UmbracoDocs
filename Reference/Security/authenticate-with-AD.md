@@ -46,6 +46,7 @@ namespace MyApp
 						Services.EntityService,
 						Services.ExternalLoginService,
 						membershipProvider,
+                        Mapper, // upgrade from Umbraco 8.0.2 to 8.1.0 seems to require this add'l property
 						UmbracoSettings.Content,
 						GlobalSettings
 					);
